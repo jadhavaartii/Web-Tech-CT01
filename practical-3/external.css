@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" id="name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" id="email"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" id="password"><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="text" id="phone"><br><br>
+
+        <input type="submit" value="registration">
+        <input type="reset" value="reset">
+
+    </form>
+
+</body>
+</html>
+
+
+
+body {
+    background-color: lavender;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[type="reset"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+}
